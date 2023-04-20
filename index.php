@@ -17,7 +17,7 @@
     <hr>
     <?= $alert ?? ''; ?>
     <div class="container p-1">
-        <form method="post" action="crypt.php">
+        <form method="post" action="logicCrypt.php">
             <div class="row g-3 align-items-center ">
                 <div class="col-auto">
                     <label for="exemploMessage" class="form-label">Mensagem:</label>
